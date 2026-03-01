@@ -244,6 +244,7 @@ uvicorn app:app --host 0.0.0.0 --port 8003 --reload
 #### Terminal 2 — ML Engine
 ```bash
 cd exam-ai/services/engine
+python -m venv venv
 venv\Scripts\activate
 uvicorn app:app --host 0.0.0.0 --port 8002 --reload
 ```
@@ -251,6 +252,7 @@ uvicorn app:app --host 0.0.0.0 --port 8002 --reload
 #### Terminal 3 — Dashboard Backend
 ```bash
 cd exam-monitroing/backend
+python -m venv venv
 venv\Scripts\activate
 uvicorn server:app --host 0.0.0.0 --port 8000 --reload
 ```
@@ -405,5 +407,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <p align="center">Built with ❤️ by Karthikeyan (KKB) · ExamGuard AI</p>
-#   e x a m - m o n i t o r i n g -  
+#   e x a m - m o n i t o r i n g - 
+ 
  
