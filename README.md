@@ -407,6 +407,4 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 ---
 
 <p align="center">Built with ❤️ by Karthikeyan (KKB) · ExamGuard AI</p>
-#   e x a m - m o n i t o r i n g - 
- 
- 
+#
